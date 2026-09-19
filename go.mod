@@ -1,6 +1,6 @@
 module github.com/zricethezav/gitleaks/v8
 
-go 1.25.10
+go 1.25.13
 
 require (
 	github.com/BobuSumisu/aho-corasick v1.0.3
@@ -59,7 +59,7 @@ require (
 	github.com/wasilibs/wazero-helpers v0.0.0-20240620070341-3dff1577cd52 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
 	go4.org v0.0.0-20230225012048-214862532bf5 // indirect
-	golang.org/x/crypto v0.44.0 // indirect
+	golang.org/x/crypto v0.53.0 // indirect
 )
 
 require (
@@ -73,10 +73,12 @@ require (
 	github.com/spf13/pflag v1.0.10 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/wasilibs/go-re2 v1.9.0
-	golang.org/x/sync v0.18.0 // indirect
-	golang.org/x/sys v0.38.0 // indirect
-	golang.org/x/text v0.31.0 // indirect
+	golang.org/x/sync v0.21.0 // indirect
+	golang.org/x/sys v0.46.0 // indirect
+	golang.org/x/text v0.38.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
 replace golang.org/x/crypto => golang.org/x/crypto v0.45.0
+
+replace golang.org/x/text => golang.org/x/text v0.39.0
