@@ -17,6 +17,13 @@ builds:
     goarm:
       - "6"
       - "7"
+    ignore:
+    - goos: windows
+      goarch: arm
+      goarm: "6"
+    - goos: windows
+      goarch: arm
+      goarm: "7"
     tags:
       - gore2regex
     ldflags:
