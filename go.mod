@@ -79,8 +79,9 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace golang.org/x/crypto => golang.org/x/crypto v0.56.0
-
-replace golang.org/x/text => golang.org/x/text v0.41.0
-
-replace github.com/klauspost/compress => github.com/klauspost/compress v1.18.7
+replace (
+	github.com/andybalholm/brotli => github.com/andybalholm/brotli v1.2.7
+	github.com/klauspost/compress => github.com/klauspost/compress v1.20.2
+	golang.org/x/crypto => golang.org/x/crypto v0.56.0
+	golang.org/x/text => golang.org/x/text v0.41.0
+)
